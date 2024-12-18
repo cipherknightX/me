@@ -118,10 +118,11 @@ body {
 }
 
 .project-img {
-    width: 200px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     transition: opacity 0.3s;
+    object-fit: cover; /* Key addition */
 }
 
 .project-info {
